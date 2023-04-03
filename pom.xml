@@ -34,18 +34,6 @@
         </dependency>
 
     </dependencies>
-    <proxies>
-        <proxy>
-          <id>myproxy</id>
-          <active>true</active>
-          <protocol>https</protocol>
-          <host>pkg.proxy.prod.jp.local</host>
-          <port>10080</port>
-          <username></username>
-          <password></password>
-          <nonProxyHosts>localhost</nonProxyHosts>
-        </proxy>
-    </proxies>
     <build>
         <plugins>
             <plugin>
@@ -62,7 +50,7 @@
               <version>8.2.1</version>
               <configuration>
                   <failBuildOnCVSS>8</failBuildOnCVSS>
-                  <mavenSettingsProxyId>myproxy</mavenSettingsProxyId>
+                  <mavenSettingsProxyId>myproxy2</mavenSettingsProxyId>
               </configuration>
               <executions>
                   <execution>
