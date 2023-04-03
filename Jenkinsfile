@@ -6,7 +6,7 @@ pipeline {
                 checkout([
                     $class: 'GitSCM',
                     branches: [[name: '*/testpp']], // branch to checkout
-                    userRemoteConfigs: [[url: 'https://github.com/yourusername/yourrepository.git']] // repository URL
+                    userRemoteConfigs: [[url: 'https://github.com/xiang-a-zhang-rakuten/maven-demo.git']] // repository URL
                 ])
             }
         }
